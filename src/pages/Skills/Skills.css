@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+  #skills {
+    padding-top: 100px;
+  }
+
+  #skills h1 {
+    font-size: 2rem;
+  }
+
+  #skills h4 {
+    font-size: 1.5rem;
+  }
+
+  #skills p {
+    font-size: 1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .card-item {
+    width: 100%;
+  }
+  .card-context {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
